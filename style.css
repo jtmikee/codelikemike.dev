@@ -51,6 +51,7 @@ header {
 	color: white;
 	font-family: 'Abril Fatface', cursive;
 	padding-top: 50px;
+	overflow-x: hidden;
 }
 
 .headerFlex {
@@ -68,7 +69,7 @@ header h2 {
 }
 
 .headerText {
-	position: absolute;
+	/* position: absolute; */
 	display: flex;
 	flex-direction: column;
 	width: 50%;
@@ -80,9 +81,11 @@ header h2 {
 }
 
 header img {
-	width: auto;
+	max-height: 550px;
+	min-width: 550px;
+	max-height: 550px;
+	min-height: 550px;
 	margin-top: -30px;
-	overflow-x: hidden;
 
 }
 
