@@ -55,19 +55,25 @@
 	<section class="contact" id="contact">
 		<h2>Contact</h2>
 		
-		<form name="contact" method="POST" data-netlify="true">
-			<p>
-			  <label>Your Name: <input type="text" name="name" /></label>   
-			</p>
-			<p>
-			  <label>Your Email: <input type="email" name="email" /></label>
-			</p>
-			<p>
-			  <label>Message: <textarea name="message"></textarea></label>
-			</p>
-			<p>
-			  <button type="submit">Send</button>
-			</p>
+		<form netlify name="contact">
+			<input
+			  class="form-control valid"
+			  name="name"
+			  id="name"
+			  type="text"
+			  placeholder="Enter your Name"
+			/>
+			<input
+			  class="form-control valid"
+			  name="email"
+			  id="email"
+			  type="email"
+			  placeholder="Enter your Email"
+			/>
+			<textarea name="textArea" id="textAre" cols="30" rows="10">Leave a message</textarea>
+			<button type="submit">
+			  Submit
+			</button>
 		  </form>
 		  
 		  
