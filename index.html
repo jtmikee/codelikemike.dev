@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home">
 
 <head>
 	<meta charset="UTF-8">
@@ -9,30 +9,72 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:wght@300&display=swap"
 		rel="stylesheet">
+	<script src="https://kit.fontawesome.com/d62731f24a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
 	<nav>
-			<a href="">Home</a>
-			<a href="">About Me</a>
-			<a href="">Projects</a>
-			<a href="">Skills</a>
-			<a href="">Contact</a>
+		<a href="#home">Home</a>
+		<a href="#about">About Me</a>
+		<a href="#projects">Projects</a>
+		<a href="#skills">Skills</a>
+		<a href="#contact">Contact</a>
 	</nav>
 	<header>
-		<div class="headerText">
-			<h1>Michael Campbell</h1>
-			<h2>Web Developer</h2>
+		<div class="headerFlex">
+			<div class="headerText">
+				<h1>Michael Campbell</h1>
+				<h2>Web Developer</h2>
+			</div>
+			<img src="./assets/michael.png" alt="michael">
 		</div>
-		<img src="./assets/michael.png" alt="michael">
+		<button class="Arrow">
+			<a href="#about"><i class="fas fa-angle-double-down"></i></a>
+		</button>
+		
 	</header>
 	<section class="about" id="about">
 		<h2>About</h2>
+		<button class="Arrow">
+			<a href="#about"><i class="fas fa-angle-double-down"></i></a>
+		</button>
 	</section>
-	<section class="projects" id="projects"></section>
-	<section class="skills" id="skills"></section>
-	<section class="contact" id="contact"></section>
+	<section class="projects" id="projects">
+		<h2>Projects</h2>
+		<button class="Arrow">
+			<a href="#about"><i class="fas fa-angle-double-down"></i></a>
+		</button>
+	</section>
+	<section class="skills" id="skills">
+		<h2>Skills</h2>
+		<button class="Arrow">
+			<a href="#about"><i class="fas fa-angle-double-down"></i></a>
+		</button>
+	</section>
+	<section class="contact" id="contact">
+		<h2>Contact</h2>
+		
+		<form name="contact" method="POST" data-netlify="true">
+			<p>
+			  <label>Your Name: <input type="text" name="name" /></label>   
+			</p>
+			<p>
+			  <label>Your Email: <input type="email" name="email" /></label>
+			</p>
+			<p>
+			  <label>Message: <textarea name="message"></textarea></label>
+			</p>
+			<p>
+			  <button type="submit">Send</button>
+			</p>
+		  </form>
+		  
+		  
+		<button class="Arrow">
+			<a href="#about"><i class="fas fa-angle-double-down"></i></a>
+		</button>
+	</section>
 
 
 </body>
