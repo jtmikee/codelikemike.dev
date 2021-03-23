@@ -8,6 +8,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 body {
@@ -145,5 +146,12 @@ header img {
 	height: 100vh;
 	background: url(./assets/contactGradient.png);
 	background-position: top;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin: 0 auto;
 }
 
