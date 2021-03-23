@@ -8,8 +8,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
 	scroll-behavior: smooth;
-	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;
 }
 
 body {
@@ -27,7 +25,6 @@ nav {
 	background: radial-gradient(circle, rgba(131,182,168,1) 6%, rgba(108,155,142,1) 29%, rgba(83,125,181,1) 60%, rgba(60,96,219,1) 86%);
 	text-align: right;
 	font-family: 'Oswald', sans-serif;
-	/* padding: 10px 0 10px 0; */
 }
 
 nav a {
@@ -46,7 +43,8 @@ nav a:last-of-type {
 header {
 	width: 100%;
 	height: 100vh;
-	background: url(./assets/headerGradient.png);
+	/* background: url(./assets/headerGradient.png); */
+	background: url(./assets/noiseHeaderGradient.png);
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -71,7 +69,6 @@ header h2 {
 }
 
 .headerText {
-	/* position: absolute; */
 	display: flex;
 	flex-direction: column;
 	width: 50%;
@@ -118,7 +115,8 @@ header img {
 .about {
 	width: 100%;
 	height: 100vh;
-	background: url(./assets/aboutGradient.png);
+	/* background: url(./assets/aboutGradient.png); */
+	background: url(./assets/noiseAboutGradient.png);
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
@@ -130,7 +128,8 @@ header img {
 .projects {
 	width: 100%;
 	height: 100vh;
-	background: url(./assets/headerGradient.png);
+	/* background: url(./assets/headerGradient.png); */
+	background: url(./assets/noiseHeaderGradient.png);
 	position: bottom;
 }
 
@@ -140,7 +139,8 @@ header img {
 .skills {
 	width: 100%;
 	height: 100vh;
-	background: url(./assets/skillsGradient.png);
+	/* background: url(./assets/skillsGradient.png); */
+	background: url(./assets/noiseSkillsGradient.png);
 	background-position: center;
 }
 
@@ -149,7 +149,8 @@ header img {
 .contact {
 	width: 100%;
 	height: 100vh;
-	background: url(./assets/contactGradient.png);
+	/* background: url(./assets/contactGradient.png); */
+	background: url(./assets/noiseContactGradient.png);
 	background-position: top;
 }
 
