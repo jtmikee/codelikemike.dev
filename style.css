@@ -8,6 +8,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
 	scroll-behavior: smooth;
+	-webkit-overflow-scrolling: touch;
 }
 
 body {
