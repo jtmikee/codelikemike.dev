@@ -44,7 +44,8 @@ header {
 	width: 100%;
 	height: 100vh;
 	/* background: url(./assets/headerGradient.png); */
-	background: url(./assets/noiseHeaderGradient.png);
+	/* background: url(./assets/noiseHeaderGradient.png); */
+	background: url(./assets/noiseHeaderGradient2.png);
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
