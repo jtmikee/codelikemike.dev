@@ -77,9 +77,14 @@ header img {
 
 }
 
+.arrowHeader {
+	padding-top: 40px;
+	cursor: default;
+}
+
 .Arrow {
 	display: block;
-	width: 50px;
+	width: auto;
 	margin: 0 auto;
 	text-decoration: none;
 	background-color: transparent;
@@ -88,37 +93,46 @@ header img {
 
 .Arrow a {
 	display: inline-block;
+	width: auto;
+	font-size: 4rem;
 	text-decoration: none;
 	color: white;
-	width: 40px;
-	font-size: 4rem;
-	transition: 0.3s ease;
+	transition: 0.4s ease;
 }
 
 .Arrow a:hover {
-	color: #71A193;
+	/* background: -webkit-gradient(linear, left top, left bottom, from(#5A4FC2), to(#699188)); */
+	background: #6270FF;
+	background: -webkit-radial-gradient(center, #6270FF 0%, #6C97FF 50%, #79CCFF 100%);
+  	background-clip: text;
+  	-webkit-text-fill-color: transparent;
 }
 
 /* WRAPPER */
 
 .wrapper {
 	width: 70%;
-	margin: 0 auto;
+	margin: 150px auto 150px auto;
 	-webkit-box-shadow: 0px 9px 16px 5px #000000; 
 	box-shadow: 0px 9px 16px 5px #0000007c;
 
 }
 
+
 /* NAV */
 
 nav {
 	width: 100%;
+	height: 100px;
 	margin: 0 auto;
 	display: flex;
 	position: sticky;
 	top: 0;
 	justify-content: center;
-	background: radial-gradient(circle, rgba(131,182,168,1) 6%, rgba(108,155,142,1) 29%, rgba(83,125,181,1) 60%, rgba(60,96,219,1) 86%);
+	background: #626fff41;
+	background: -moz-linear-gradient(top, #626fff41 0%, #6c98ff41 50%, #79ccff41 100%);
+	background: -webkit-linear-gradient(top, #626fff41 0%, #6c98ff41 50%, #79ccff41 100%);
+	background: linear-gradient(to bottom, #626fff41 0%, #6c98ff41 50%, #79ccff41 100%);
 	font-family: 'Oswald', sans-serif;
 }
 
@@ -133,12 +147,29 @@ nav a:last-of-type {
 	padding-right: 40px;
 }
 
+.aboutIcon::after {
+	font-family: FontAwesome;
+	content: "\f6e8";
+	display: inline-block;
+	/* text-align: center; */
+	padding-left: 5px;
+}
+
+.projectsIcon::after {
+	font-family: FontAwesome;
+	content: "\f004";
+	display: inline-block;
+	/* text-align: center; */
+	padding-left: 5px;	
+}
+
 /* ABOUT */
 
 .about {
 	width: 100%;
 	height: 100vh;
 	color: white;
+	padding-top: 50px;
 	
 }
 
@@ -147,6 +178,8 @@ nav a:last-of-type {
 .projects {
 	width: 100%;
 	height: 100vh;
+	color: white;
+	padding-top: 50px;
 
 }
 
@@ -156,6 +189,8 @@ nav a:last-of-type {
 .skills {
 	width: 100%;
 	height: 100vh;
+	color: white;
+	padding-top: 50px;
 
 }
 
@@ -164,6 +199,8 @@ nav a:last-of-type {
 .contact {
 	width: 100%;
 	height: 100vh;
+	color: white;
+	padding-top: 50px;
 
 }
 
