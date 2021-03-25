@@ -25,7 +25,7 @@
 			<img src="./assets/michael.png" alt="michael">
 		</div>
 		<button class="Arrow arrowHeader">
-			<a href="#about"><i class="fas fa-angle-double-down"></i></a>
+		<a href="#about"><i class="fas fa-angle-double-down"></i></a>
 		</button>
 
 	</header>
@@ -39,9 +39,9 @@
 		<main>
 			<section class="about" id="about">
 				<h2>About</h2>
-				<button class="Arrow">
+				<!-- <button class="Arrow">
 					<a href="#projects"><i class="fas fa-angle-double-down"></i></a>
-				</button>
+				</button> -->
 			</section>
 
 			<section class="projects" id="projects">
@@ -51,10 +51,11 @@
 						<img src="./assets/ForestSet.png" alt="">
 						<div class="forestInformation">
 							<h3>May The Forest Be With You</h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolor nam animi, mollitia voluptas optio id repellat nihil eum corporis.</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolor nam animi, mollitia
+								voluptas optio id repellat nihil eum corporis.</p>
 							<div>
-								<a href="">Live</a>
-								<a href="">GitHub</a>
+								<a href="#">Live</a>
+								<a href="#">GitHub</a>
 							</div>
 							<p>In collaboration with Bea!</p>
 						</div>
@@ -62,10 +63,11 @@
 					<div class="myspaceFlexContainer">
 						<div class="myspaceInformation">
 							<h3>MySpace</h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolor nam animi, mollitia voluptas optio id repellat nihil eum corporis.</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolor nam animi, mollitia
+								voluptas optio id repellat nihil eum corporis.</p>
 							<div>
-								<a href="">Live</a>
-								<a href="">GitHub</a>
+								<a href="#">Live</a>
+								<a href="#">GitHub</a>
 							</div>
 						</div>
 						<img src="./assets/MyspaceSet.png" alt="">
@@ -74,41 +76,104 @@
 						<img src="./assets/PoetrySet.png" alt="">
 						<div class="poetryInformation">
 							<h3>Magnetic Poetry</h3>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolor nam animi, mollitia voluptas optio id repellat nihil eum corporis.</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolor nam animi, mollitia
+								voluptas optio id repellat nihil eum corporis.</p>
 							<div>
-								<a href="">Live</a>
-								<a href="">GitHub</a>
+								<a href="#">Live</a>
+								<a href="#">GitHub</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<button class="Arrow">
+				<!-- <button class="Arrow">
 					<a href="#skills"><i class="fas fa-angle-double-down"></i></a>
-				</button>
+				</button> -->
 			</section>
 
 			<section class="skills" id="skills">
 				<h2>Skills</h2>
-				<button class="Arrow">
+				<ul class="skillsGrid">
+					<li class="htmlIcon">
+						<img src="./assets/htmlIcon.png" alt="">
+						<h3>HTML</h3>
+					</li>
+					<li>
+						<img src="./assets/cssIcon.png" alt="">
+						<h3>CSS</h3>
+					</li>
+					<li>
+						<img src="./assets/javascriptIcon.png" alt="">
+						<h3>JavaScript</h3>
+					</li>
+					<li>
+						<img src="./assets/jqueryIcon.png" alt="">
+						<h3>jQuery</h3>
+					</li>
+					<li>
+						<img src="./assets/sassIcon.png" alt="">
+						<h3>SASS</h3>
+					</li>
+					<li>
+						<img src="./assets/restfulApiIcon.png" alt="">
+						<h3>RESTful API</h3>
+					</li>
+					<li>
+						<img src="./assets/reactIcon.png" alt="">
+						<h3>React</h3>
+					</li>
+					<li>
+						<img src="./assets/firebaseIcon.png" alt="">
+						<h3>Firebase</h3>
+					</li>
+					<li>
+						<img src="./assets/gitIcon.png" alt="">
+						<h3>Git</h3>
+					</li>
+					<li>
+						<img src="./assets/gitBranchingIcon.png" alt="">
+						<h3>Git Branching</h3>
+					</li>
+					<li>
+						<img src="./assets/accessibilityIcon.png" alt="">
+						<h3>Accessibility</h3>
+					</li>
+					<li>
+						<img src="./assets/responsiveDesignIcon.png" alt="">
+						<h3>Responsiveness</h3>
+					</li>
+				</ul>
+				<!-- <button class="Arrow">
 					<a href="#contact"><i class="fas fa-angle-double-down"></i></a>
-				</button>
+				</button> -->
 			</section>
 
 			<section class="contact" id="contact">
-				<h2>Contact</h2>
-				<form netlify name="contact">
-					<input class="form-control valid" name="name" id="name" type="text" placeholder="Enter your Name" />
-					<input class="form-control valid" name="email" id="email" type="email"
-						placeholder="Enter your Email" />
-					<textarea name="textArea" id="textArea" placeholder="Leave a message" cols="30"
-						rows="10"></textarea>
-					<button type="submit">
-						Submit
-					</button>
-				</form>
+				<div class="contactFlexContainer">
+					<div class="contactInformation">
+						<div class="contactText">
+							<h2>Reach Out To Me!</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ut quia animi ab,
+								eaque sunt! Illum mollitia est harum velit voluptatem voluptatum adipisci, alias, beatae
+								dolorem nam labore minima. Nobis.</p>
+							<p>jtmikee@gmail.com</p>
+						</div>
+					</div>
+					<div class="contactForm">
+						<form netlify name="contact">
+							<input class="form-control valid" name="name" id="name" type="text"
+								placeholder="Enter your Name" required/>
+							<input class="form-control valid" name="email" id="email" type="email"
+								placeholder="Enter your Email" required/>
+							<textarea name="textArea" id="textArea" placeholder="Leave a message" cols="30"
+								rows="10" required></textarea>
+							<button type="submit">
+								Submit
+							</button>
+						</form>
+					</div>
+				</div>
 
-
-				<button class="Arrow">
+				<button class="Arrow" type="button">
 					<a href="#home"><i class="fas fa-angle-double-up"></i></a>
 				</button>
 			</section>
