@@ -12,9 +12,7 @@ html {
 
 body {
 	font-size: 62.5%;
-	/* background: url(./assets/repeatBackground.png);  */
-	/* background: url(./assets/repeatBackground2.png); */
-	background: url(./assets/repeatBackground4.jpg);
+	background: url(./assets/test4.jpg);
 	background-size: contain;
 	background-repeat: repeat-y;
 }
@@ -80,7 +78,7 @@ header img {
 }
 
 .arrowHeader {
-	padding-top: 40px;
+	padding-top: 20px;
 	cursor: default;
 }
 
