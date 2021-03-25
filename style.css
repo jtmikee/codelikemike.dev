@@ -97,17 +97,6 @@ header img {
 	font-size: 4rem;
 	text-decoration: none;
 	color: white;
-	background: transparent;
-	transition: all 0.3s ease-out;
-	
-}
-
-.Arrow a:hover {
-	background: #6270FF;
-	background: -webkit-radial-gradient(center, #6270FF 0%, #6C97FF 50%, #79CCFF 100%);
-  	-webkit-background-clip: text;
-  	background-clip: text;
-  	-webkit-text-fill-color: transparent;
 }
 
 /* WRAPPER */
@@ -139,7 +128,9 @@ nav {
 	font-family: 'Oswald', sans-serif;
 }
 
+
 nav a {
+	white-space: nowrap;
 	color: white;
 	text-decoration: none;
 	font-size: 1.2rem;
@@ -209,10 +200,33 @@ nav a:hover {
 
 .projects {
 	width: 100%;
-	height: 100vh;
+	height: 180vh;
 	color: white;
 	padding-top: 50px;
+}
 
+.projectsContainer {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	margin: 70px auto;
+}
+
+.projectsContainer img {
+	min-width: 60%;
+}
+
+.projectsContainer img:nth-of-type(even) {
+	align-self: flex-end;
+}
+
+.forestFlexContainer, .myspaceFlexContainer, .poetryFlexContainer {
+	display: flex;
+}
+
+.forestInformation, .myspaceInformation, .poetryInformation {
+	align-self: center;
+	justify-content: center;
 }
 
 
