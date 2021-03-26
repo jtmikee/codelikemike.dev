@@ -53,6 +53,17 @@ h1 {
 	width: 50%;
 }
 
+h2 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 2rem;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Abril Fatface', cursive;
+}
+
+
 .headerContainer {
 	position: relative;
 }
@@ -213,8 +224,14 @@ nav a:hover {
 	padding-top: 50px;
 }
 
+.projects a {
+	text-decoration: none;
+	color: white;
+	text-decoration: underline;
+}
+
 .projectsContainer {
-	width: 90%;
+	width: 95%;
 	display: flex;
 	flex-direction: column;
 	margin: 70px auto;
@@ -235,6 +252,41 @@ nav a:hover {
 .forestInformation, .myspaceInformation, .poetryInformation {
 	align-self: center;
 	justify-content: center;
+}
+
+.forestInformation, .poetryInformation {
+	margin-left: 20px;
+}
+
+.projects h3 {
+	font-size: 1.4rem;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+.projects p {
+	width: 90%;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
+	line-height: 30px;
+}
+
+.projectLink a {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 1rem;
+}
+
+.projectLink p {
+	width: 10px;
+	line-height: 15px;
+	text-align: center;
+}
+
+.projectLink {
+	display: flex;
+	margin: 20px 0;
+	/* justify-content: center; */
+	/* margin: 10px 0; */
 }
 
 
@@ -283,6 +335,14 @@ nav a:hover {
 
 .contact h2 {
 	padding: 0;
+	text-align: left;
+}
+
+.contact p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
+	line-height: 30px;
+	margin-top: 30px;
 }
 
 .contactFlexContainer {
