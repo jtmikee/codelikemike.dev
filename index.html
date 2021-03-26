@@ -9,6 +9,9 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:wght@300&display=swap"
 		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Staatliches&display=swap" rel="stylesheet"> 
 	<script src="https://kit.fontawesome.com/d62731f24a.js" crossorigin="anonymous"></script>
 </head>
 
@@ -16,16 +19,12 @@
 
 
 	<header>
-		<div class="headerFlex">
 			<div class="headerText">
-				<h1>Michael</h1>
-				<h1>Campbell</h1>
+				<h1>Michael Campbell</h1>
 				<h2>Web Developer</h2>
 			</div>
-			<img src="./assets/michael.png" alt="michael">
-		</div>
 		<button class="Arrow arrowHeader">
-		<a href="#about"><i class="fas fa-angle-double-down"></i></a>
+			<a href="#about"><i class="fas fa-angle-double-down"></i></a>
 		</button>
 
 	</header>
@@ -38,7 +37,27 @@
 		</nav>
 		<main>
 			<section class="about" id="about">
-				<h2>About</h2>
+				<div class="aboutInformation">
+					<div class="aboutTextContainer">
+						<h2>About Me</h2>
+						<h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore accusamus nam deleniti
+							facilis id, quae, modi ab nesciunt, voluptatum numquam aspernatur consequatur dolorum nulla
+							consectetur et quibusdam odit? Perferendis, aliquam. Lorem ipsum dolor sit amet consectetur,
+							adipisicing elit. Dolor harum nam exercitationem animi ipsa. Voluptate commodi omnis ipsa
+							recusandae, molestias minus ducimus cum excepturi vitae perferendis culpa distinctio
+							doloremque quis labore in iusto qui autem. Necessitatibus quibusdam ipsam adipisci dolores
+							nobis recusandae quos aut debitis blanditiis. Fugit, veniam. Corrupti quas eum magnam odit
+							animi iste labore debitis natus et, laboriosam saepe, quod voluptas enim delectus blanditiis
+							sunt amet cupiditate harum repellendus soluta modi quibusdam fugiat. Repellendus
+							exercitationem eveniet dolorem ratione numquam. Molestias voluptas, quibusdam necessitatibus
+							reprehenderit commodi dolor ullam at nam illo deserunt aspernatur ipsum voluptates
+							doloribus. Repellat, eos</h3>
+					</div>
+					<div class="aboutImageContainer">
+						<img src="./assets/michael.png" alt="michael">
+						<!-- <h3><a href="">Resume</a></h3> -->
+					</div>
+				</div>
 				<!-- <button class="Arrow">
 					<a href="#projects"><i class="fas fa-angle-double-down"></i></a>
 				</button> -->
@@ -58,9 +77,27 @@
 								<p>|</p>
 								<a href="#">GitHub</a>
 							</div>
-							<p>Collaboration with  <a href="https://beatriceduncan.netlify.app/">Beatrice Duncan</a></p>
+							<p>Collaboration with <a href="https://beatriceduncan.netlify.app/">Beatrice Duncan</a></p>
+							<!-- <div class="projectIcons">
+								<h3>Built With</h3>
+								<ul class="projectIconFlex">
+									<li>
+										<img src="./assets/htmlIcon.png" alt="">
+									</li>
+									<li>
+										<img src="./assets/sassIcon.png" alt="">
+									</li>
+									<li>
+										<img src="./assets/javascriptIcon.png" alt="">
+									</li>
+									<li>
+										<img src="./assets/restfulApiIcon.png" alt="">
+									</li>
+								</ul>
+							</div> -->
 						</div>
 					</div>
+					
 					<div class="myspaceFlexContainer">
 						<div class="myspaceInformation">
 							<h3>MySpace</h3>
@@ -71,9 +108,17 @@
 								<p>|</p>
 								<a href="#">GitHub</a>
 							</div>
+							<!-- <div class="projectIcons">
+								<h3>Built With</h3>
+								<img src="" alt="">
+								<img src="" alt="">
+								<img src="" alt="">
+								<img src="" alt="">
+							</div> -->
 						</div>
 						<img src="./assets/MyspaceSet.png" alt="">
 					</div>
+
 					<div class="poetryFlexContainer">
 						<img src="./assets/PoetrySet.png" alt="">
 						<div class="poetryInformation">
@@ -85,6 +130,14 @@
 								<p>|</p>
 								<a href="#">GitHub</a>
 							</div>
+							<p>Collaboration with <a href="liyahcodes.com">Aaliyah Beckford</a>, <a href="https://blairecodes.com">Blaire Porter</a> and <a href="#">Andrew Craig</a></p>
+							<!-- <div class="projectIcons">
+								<h3>Built With</h3>
+								<img src="" alt="">
+								<img src="" alt="">
+								<img src="" alt="">
+								<img src="" alt="">
+							</div> -->
 						</div>
 					</div>
 				</div>
@@ -164,11 +217,11 @@
 					<div class="contactForm">
 						<form netlify name="contact">
 							<input class="form-control valid" name="name" id="name" type="text"
-								placeholder="Enter your Name" required/>
+								placeholder="Enter your Name" required />
 							<input class="form-control valid" name="email" id="email" type="email"
-								placeholder="Enter your Email" required/>
-							<textarea name="textArea" id="textArea" placeholder="Leave a message" cols="30"
-								rows="10" required></textarea>
+								placeholder="Enter your Email" required />
+							<textarea name="textArea" id="textArea" placeholder="Leave a message" cols="30" rows="10"
+								required></textarea>
 							<button type="submit">
 								Submit
 							</button>
