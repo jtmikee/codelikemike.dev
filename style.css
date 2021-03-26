@@ -95,6 +95,17 @@ header h2 {
 	color: white;
 }
 
+@media (max-width: 1175px) {
+	
+	h1 {
+		margin-top: 0;
+	}
+  }
+
+
+
+
+
 /* WRAPPER */
 
 .wrapper {
@@ -248,9 +259,9 @@ nav a:hover {
 
 .projects {
 	width: 100%;
-	height: 180vh;
+	height: 100%;
 	color: white;
-	padding-top: 50px;
+	padding-top: 80px;
 }
 
 .projects a {
@@ -272,7 +283,8 @@ nav a:hover {
 	width: 95%;
 	display: flex;
 	flex-direction: column;
-	margin: 50px auto;
+	align-items: space-between;
+	margin: auto auto;
 }
 
 .projectsContainer img {
@@ -285,6 +297,7 @@ nav a:hover {
 
 .forestFlexContainer, .myspaceFlexContainer, .poetryFlexContainer {
 	display: flex;
+	padding: 40px 0;
 }
 
 .forestInformation, .myspaceInformation, .poetryInformation {
@@ -341,6 +354,48 @@ nav a:hover {
 	margin: 20px 0;
 }
 
+@media (max-width: 1028px) {
+
+	.projects {
+		padding-top: 80px;
+	}
+	
+	.forestFlexContainer, .poetryFlexContainer {
+		flex-direction: column;
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	.myspaceFlexContainer {
+		flex-direction: column-reverse;
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	.forestInformation, .poetryInformation, .myspaceInformation {
+		width: 100%;
+		margin: 0;
+		text-align: center;
+	}
+
+	.projects p {
+		width: 100%;
+	}
+
+	.projectLink {
+		width: 120px;
+		margin: 0 auto;
+		text-align: center;
+		padding: 20px 0;
+	}
+
+	.projectLink p {
+		width: 10px;
+	}
+
+
+  }
+
 
 
 
@@ -349,9 +404,9 @@ nav a:hover {
 
 .skills {
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	color: white;
-	padding-top: 50px;
+	padding-top: 80px;
 	
 }
 
@@ -386,6 +441,27 @@ nav a:hover {
 	letter-spacing: 1px;
 }
 
+@media (max-width: 1028px) {
+	.skills {
+		padding-top: 80px;
+	}
+
+	.skillsGrid {
+		  grid-template-columns: 1fr 1fr 1fr;
+		  grid-template-rows: 1fr 1fr 1fr 1fr;
+		  gap: 10px 10px;
+	}
+
+}
+
+@media (max-width: 750px) { 
+	.skillsGrid {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+		gap: 20px 0;
+  }
+}
+
 
 /* CONTACT */
 
@@ -393,7 +469,7 @@ nav a:hover {
 	display: flex;
 	flex-direction: column;
 	width: 90%;
-	height: 100vh;
+	height: 100%;
 	color: white;
 	padding-top: 50px;
 	margin: 0 auto;
@@ -405,7 +481,7 @@ nav a:hover {
 	text-align: left;
 	text-shadow: -4px 3px 0 #3a50d9, -9px 7px 0 #0a0e27;
 	font-size: 4rem;
-	text-align: center;
+	
 }
 
 .contact p {
@@ -497,4 +573,22 @@ button[type=submit] {
 
 button[type=button] {
 	margin-top: 140px;
+}
+
+@media (max-width: 1050px) { 
+	
+	.contactText h2 {
+		text-align: center;
+	}
+
+	.contactText {
+		padding-bottom: 30px;
+	}
+
+	.contactFlexContainer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
 }
