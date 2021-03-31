@@ -654,5 +654,6 @@ button[type=button] {
 		background: url(./assets/mobileTEST.jpg);
 		background-size: contain;
 		background-attachment: scroll;
+		background-repeat: repeat-y;
 	}
 }
