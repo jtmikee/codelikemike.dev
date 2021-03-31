@@ -16,7 +16,7 @@ body {
 	background: url(./assets/finalTEST.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	/* background-repeat: repeat-y; */
+	background-repeat: repeat-y;
 }
 
 
@@ -653,6 +653,6 @@ button[type=button] {
 	body {
 		background: url(./assets/mobileTEST.jpg);
 		background-size: contain;
-		background-attachment: unset;
+		background-attachment: scroll;
 	}
 }
