@@ -653,5 +653,6 @@ button[type=button] {
 	body {
 		background: url(./assets/mobileTEST.jpg);
 		background-size: contain;
+		background-attachment: unset;
 	}
 }
