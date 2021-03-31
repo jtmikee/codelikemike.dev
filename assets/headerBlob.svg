@@ -1,9 +1,0 @@
-<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
-  <defs>
-    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color: rgb(143, 255, 222);"></stop>
-      <stop offset="100%" style="stop-color: rgb(137, 166, 219);"></stop>
-    </linearGradient>
-  </defs>
-  <path id="blob" d="M398,294Q387,338,363.5,392.5Q340,447,285,418.5Q230,390,162.5,409.5Q95,429,97.5,361.5Q100,294,69.5,241Q39,188,74.5,138Q110,88,169.5,96Q229,104,278,93Q327,82,389,101.5Q451,121,430,185.5Q409,250,398,294Z" fill="url(#gradient)"></path>
-</svg>
