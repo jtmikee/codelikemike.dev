@@ -680,6 +680,6 @@ button[type=button] {
 	}
 
 	.projectsContainer img {
-		max-width: 40%;
+		min-width: 40%;
 	}
 }
