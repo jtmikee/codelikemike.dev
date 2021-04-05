@@ -657,3 +657,19 @@ button[type=button] {
 		background-repeat: repeat-y;
 	}
 }
+
+@media (max-width: 615px) {
+
+	h1 {
+		font-size: 6rem;
+		margin: 0 auto;
+	}
+
+	.headerText h2 {
+		font-size: 3rem;
+	}
+
+	.wrapper {
+		width: 100%;
+	}
+}
