@@ -672,4 +672,14 @@ button[type=button] {
 	.wrapper {
 		width: 100%;
 	}
+
+	.skillsGrid h3 {
+		opacity: 1;
+		width: 100px;
+		font-size: 1rem;
+	}
+
+	.projectsContainer img {
+		min-width: 40%;
+	}
 }
