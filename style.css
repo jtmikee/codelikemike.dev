@@ -700,10 +700,14 @@ button[type=button] {
 
 @media (max-width: 400px) {
 	body {
-		background: url(./assets/mobileTEST4.jpg);
+		background: url(./assets/MOBILE1TEST.jpg);
 		/* background-size: contain; */
 		background-attachment: local;
 		background-repeat: repeat-y;
+	}
+
+	.arrowHeader {
+		padding-top: 100px;
 	}
 }
 
