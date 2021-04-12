@@ -197,23 +197,31 @@
 						<div class="contactText">
 							<h2>Reach Out To Me!</h2>
 							<p>If you have any questions, feel free to get in touch! Leave me a message, send an email or book a time to chat on my Calendly.</p>
-							<h3>Email</h3>
-							<a href="mailto:jtmikee@gmail.com">jtmikee@gmail.com</a>
-							<h3>Calendly</h3>
-							<a href="https://calendly.com/mikejtcampbell">calendly.com/mikejtcampbell</a>
+							<div class="emailCalendlyFlex">
+								<div class="email">
+									<h3>Email</h3>
+									<a href="mailto:jtmikee@gmail.com">jtmikee@gmail.com</a>
+								</div>
+								<div class="calendly">
+									<h3>Calendly</h3>
+									<a href="https://calendly.com/mikejtcampbell">calendly.com/mikejtcampbell</a>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="contactForm">
 						<form netlify name="contact">
-							<input class="form-control valid" name="name" id="name" type="text"
+							<div class="inputFlex">
+								<input class="form-control valid" name="name" id="name" type="text"
 								placeholder="Enter your Name" required />
-							<input class="form-control valid" name="email" id="email" type="email"
+								<input class="form-control valid" name="email" id="email" type="email"
 								placeholder="Enter your Email" required />
-							<textarea name="textArea" id="textArea" placeholder="Leave a message" cols="30" rows="10"
+							</div>
+								<textarea name="textArea" id="textArea" placeholder="Leave a message" cols="30" rows="10"
 								required></textarea>
-							<button type="submit">
-								Submit
-							</button>
+								<button type="submit">
+									Submit
+								</button>
 						</form>
 					</div>
 				</div>

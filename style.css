@@ -584,7 +584,7 @@ nav a:hover {
 }
 
 .contactText {
-	width: 90%;;
+	width: 90%;
 }
 
 .contactText p
@@ -777,6 +777,49 @@ button[type=button] {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
+}
+
+.emailCalendlyFlex {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.email {
+	display: inline-block;
+}
+
+.email h3, a {
+	width: 100%;
+}
+
+.calendly {
+	width: 50%;
+}
+
+.contactInformation {
+	width: 100%;
+}
+
+.contactText {
+	margin: 0 auto;
+}
+
+.inputFlex {
+	display: flex;
+	justify-content: space-between;
+}
+
+form input {
+	width: 49%;
+}
+
+.contactForm {
+	width: 90%;
+}
+
+form {
+	width: 100%;
 }
 
 }
