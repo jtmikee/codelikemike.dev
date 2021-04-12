@@ -718,7 +718,8 @@ button[type=button] {
 	}
 
 	.projectsContainer img {
-		min-width: 40%;
+		min-width: 10%;
+		max-width: 50%;
 	}
 
 	/* .about img {
