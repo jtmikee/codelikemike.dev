@@ -251,21 +251,48 @@ nav a:hover {
 	margin: 0 auto;
 }
 
-.aboutTextContainer h2 {
+.about h2 {
 	text-align: left;
 	text-shadow: -4px 3px 0 #3a50d9, -9px 7px 0 #0a0e27;
 	font-size: 4rem;
 	text-align: center;
-	padding-bottom: 20px;
+	margin-bottom: 60px;
+	background: -moz-linear-gradient(top, #626fff41 0%, #6c98ff41 50%, #79ccff41 100%);
+	background: -webkit-linear-gradient(top, #626fff41 0%, #6c98ff41 50%, #79ccff41 100%);
+	background: linear-gradient(to bottom, #626fff41 0%, #6c98ff41 50%, #79ccff41 100%);
 }
 
+
 .aboutTextContainer h3 {
-	/* font-family: 'Oswald', sans-serif; */
-	/* text-transform: lowercase; */
 	font-family: 'Pathway Gothic One', sans-serif;
-	font-size: 1.5rem;
-	line-height: 30px;
+	font-size: 1.4rem;
+	line-height: 40px;
 	padding-bottom: 40px;
+}
+
+/* .resume {
+	font-family: 'Staatliches', cursive;
+	font-size: 1.5rem;
+	text-shadow: -4px 3px 0 #3a50d9, -5px 6px 0 #0a0e27;
+	text-decoration: none;
+	width: 100px;
+} */
+
+.resumeLink a {
+	width: 25%;
+	display: block;
+	font-family: 'Staatliches', cursive;
+	font-size: 1.7rem;
+	text-shadow: -4px 3px 0 #3a50d9, -5px 6px 0 #0a0e27;
+	text-decoration: none;
+	color: white;
+	transition: all .5s ease-in-out;
+	transform-origin: left top;
+	padding-top: 25px
+}
+
+.resumeLink a:hover {
+	transform: scale(1.3);
 }
 
 /* .aboutImageContainer h3 {
@@ -553,7 +580,29 @@ nav a:hover {
 }
 
 .contactText {
-	width: 90%;
+	width: 90%;;
+}
+
+.contactText p
+{
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 1.3rem;
+	line-height: 30px;
+}
+
+.contactText h3 {
+	font-size: 1.6rem;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+	text-shadow: -4px 3px 0 #3a50d9, -5px 6px 0 #0a0e27;
+	padding-top: 20px;
+}
+
+.contactText a {
+	color: white;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 1.3rem;
+	line-height: 30px;
 }
 
 .contactForm {
@@ -592,7 +641,7 @@ input:required {
 textarea {
 	font-family: 'Pathway Gothic One', sans-serif;
 	font-size: 1.5rem;
-	height: 200px;
+	height: 300px;
 	resize: none;
 	margin-bottom: 20px;
 	border-radius: 20px;
