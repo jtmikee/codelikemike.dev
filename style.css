@@ -698,8 +698,9 @@ button[type=button] {
 
 @media (max-width: 414px) {
 	body {
-		background: url(./assets/MOBILE1TEST.jpg);
-		/* background-size: contain; */
+		/* background: url(./assets/MOBILE1TEST.jpg); */
+		background: url(./assets/mobilemaybe1.jpg);
+		background-size: contain;
 		background-attachment: local;
 		background-repeat: repeat-y;
 	}
