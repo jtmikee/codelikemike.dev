@@ -326,7 +326,7 @@ nav a:hover {
 	background: linear-gradient(to bottom, #626fff41 0%, #6c98ff41 50%, #79ccff41 100%);
 	text-shadow: -4px 3px 0 #3a50d9, -9px 7px 0 #0a0e27;
 	font-size: 4rem;
-	margin-bottom: 90px;
+	margin-top: 10px;
 }
 
 .projectsContainer {
@@ -345,10 +345,16 @@ nav a:hover {
 	align-self: flex-end;
 }
 
-.forestFlexContainer, .myspaceFlexContainer, .poetryFlexContainer {
+.forestFlexContainer {
 	display: flex;
-	padding: 10px 0;
+	padding: 100px 0 30px 0;
 }
+
+.myspaceFlexContainer, .poetryFlexContainer {
+	display: flex;
+	padding: 30px 0;
+}
+
 
 .forestInformation, .myspaceInformation, .poetryInformation {
 	align-self: center;
@@ -722,6 +728,13 @@ button[type=button] {
 		max-width: 100%;
 	}
 
+	.skillsGrid {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		gap: 20px 20px;
+		margin: 50px auto;
+	}
+
 	/* .about img {
 		max-width: 75%;
 	} */
@@ -742,14 +755,29 @@ button[type=button] {
 		width: 100%;
 	}
 
-	.skillsGrid h3 {
-		opacity: 1;
-		width: 100px;
-		font-size: 1rem;
-	}
-
 	.projectsContainer img {
 		/* width: 100%; */
 		max-height: 50%;
 	}
+}
+
+@media (max-width: 770px) {
+
+.skillsGrid {
+	/* grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr; */
+	gap: 40px 20px;
+	margin: 50px auto;
+}
+
+.skillsGrid h3 {
+	opacity: 1;
+	width: 100px;
+	font-size: 1rem;
+	top: 135%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
 }
