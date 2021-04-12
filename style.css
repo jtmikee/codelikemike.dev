@@ -705,8 +705,12 @@ button[type=button] {
 		background-repeat: repeat-y;
 	}
 
-	.arrowHeader {
+	h1 {
 		padding-top: 100px;
+	}
+
+	.arrowHeader {
+		padding-top: 20px;
 	}
 
 	/* .about img {
