@@ -767,7 +767,6 @@ button[type=button] {
 	/* grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr; */
 	gap: 40px 20px;
-	margin: 50px auto;
 }
 
 .skillsGrid h3 {
@@ -781,3 +780,4 @@ button[type=button] {
 }
 
 }
+
