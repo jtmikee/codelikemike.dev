@@ -269,6 +269,7 @@ nav a:hover {
 	font-size: 1.4rem;
 	line-height: 40px;
 	padding-bottom: 40px;
+	text-align: center;
 }
 
 .resumeLink {
@@ -594,19 +595,15 @@ nav a:hover {
 	line-height: 30px;
 }
 
-.contactText h3 {
+.emailCalendlyFlex a{
+	font-family: 'Staatliches', cursive;
+	text-decoration: none;
+	color: white;
 	font-size: 1.6rem;
 	letter-spacing: 1px;
 	margin-bottom: 15px;
 	text-shadow: -4px 3px 0 #3a50d9, -5px 6px 0 #0a0e27;
 	padding-top: 20px;
-}
-
-.contactText a {
-	color: white;
-	font-family: 'Pathway Gothic One', sans-serif;
-	font-size: 1.3rem;
-	line-height: 30px;
 }
 
 .contactForm {
@@ -781,12 +778,22 @@ button[type=button] {
 
 .emailCalendlyFlex {
 	margin: 0 auto;
+	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
 }
 
+
+.email a {
+	font-size: 1.6rem;
+}
+
+.calendly a {
+	font-size: 1.6rem;
+}
+
 .email {
-	display: inline-block;
+	width: 45%;
 }
 
 .email h3, a {
@@ -794,7 +801,7 @@ button[type=button] {
 }
 
 .calendly {
-	width: 50%;
+	width: 45%;
 }
 
 .contactInformation {
@@ -820,6 +827,7 @@ form input {
 
 form {
 	width: 100%;
+	padding-top: 50px;
 }
 
 }
