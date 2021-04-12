@@ -710,7 +710,11 @@ button[type=button] {
 	}
 
 	.arrowHeader {
-		padding-top: 20px;
+		padding-top: 50px;
+	}
+
+	.wrapper {
+		margin-top: 0;
 	}
 
 	/* .about img {
