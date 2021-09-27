@@ -652,7 +652,7 @@ button[type=button] {
 
 @media (max-width: 414px) {
 	body {
-		background: url(./assets/mobileBackground.jpg);
+		/* background: url(./assets/mobileBackground.jpg); */
 		background-size: contain;
 		background-attachment: local;
 		background-repeat: repeat-y;
@@ -711,6 +711,7 @@ button[type=button] {
 }
 
 .skillsGrid h3 {
+	display: none;
 	opacity: 1;
 	width: 100px;
 	font-size: 1rem;
@@ -719,6 +720,7 @@ button[type=button] {
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
+
 
 .emailCalendlyFlex {
 	margin: 0 auto;
